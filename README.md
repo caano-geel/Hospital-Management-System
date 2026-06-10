@@ -18,6 +18,56 @@ The system helps hospitals and healthcare facilities efficiently manage patients
 
 ---
 
+## 🔑 Demo Credentials
+
+### 👨‍💼 Administrator Account
+
+**Login URL**
+
+https://hospitalmsys.page.gd/backend/admin/
+
+**Email**
+
+```text
+admin@mail.com
+```
+
+**Password**
+
+```text
+Password@123
+```
+
+---
+
+### 👨‍⚕️ Doctor Account
+
+**Login URL**
+
+https://hospitalmsys.page.gd/backend/doc/
+
+**Doctor ID**
+
+```text
+YDS7L
+```
+
+**Password**
+
+```text
+password
+```
+
+---
+
+⚠️ **Note**
+
+This is a demonstration environment intended for portfolio, educational, and learning purposes.
+
+Please avoid modifying or deleting existing records. Demo data may be reset periodically.
+
+---
+
 ## ✨ Features
 
 ### 👨‍⚕️ Patient Management
@@ -235,14 +285,24 @@ http://localhost/Hospital-PHP/
 
 Software Engineer
 
-GitHub:
+**GitHub**
 https://github.com/caano-geel
 
-Email:
+**Email**
 [abdullahiomarsalad@gmail.com](mailto:abdullahiomarsalad@gmail.com)
 
-Location:
+**Location**
 Nairobi, Kenya
+
+---
+
+# 🙏 Credits
+
+**Original Project Author**
+Martin Mbithi Nzilani
+
+**Maintained & Deployed By**
+Abdullahi Omar Salad
 
 ---
 
