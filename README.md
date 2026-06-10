@@ -1,53 +1,255 @@
 # 🏥 Hospital Management System (HMS)
 
 <p align="center">
-  <img src="backend/admin/assets/images/screenshots/dashboard.png" alt="Hospital Management System Dashboard" width="900">
+  <img src="backend/admin/assets/images/screenshots/dashboard.png" alt="Hospital Management System Dashboard" width="100%">
 </p>
 
-<p align="center">
-  <strong>A PHP & MySQL based Hospital Management System for managing patients, doctors, pharmacy, laboratory, payroll, inventory, and reports.</strong>
-</p>
+A comprehensive **Hospital Management System (HMS)** developed using **PHP**, **MySQL**, **Bootstrap**, **JavaScript**, and **jQuery**.
 
-<p align="center">
-  <a href="https://hospitalmsys.page.gd/">🌐 Live Demo</a> •
-  <a href="#-features">Features</a> •
-  <a href="#-screenshots">Screenshots</a> •
-  <a href="#-installation">Installation</a>
-</p>
+The system helps hospitals and healthcare facilities efficiently manage patients, doctors, pharmacy records, laboratory reports, payroll, inventory, surgery records, and medical records through a centralized web-based dashboard.
+
+---
+
+## 🌐 Live Demo
+
+### Production URL
+
+👉 https://hospitalmsys.page.gd/
 
 ---
 
 ## ✨ Features
 
-- 👨‍⚕️ Admin and Doctor Panels
-- 🧑‍🤝‍🧑 Patient Management
-- 👩‍⚕️ Employee Management
-- 💊 Pharmacy Management
-- 🧪 Laboratory Management
-- 📋 Medical Records
-- 🏥 Surgery Records
-- 💰 Payroll Management
-- 📊 Reports and Analytics
-- 📦 Inventory and Assets Management
+### 👨‍⚕️ Patient Management
+
+* Register Patients
+* View Patients
+* Manage Patients
+* Transfer Patients
+* Discharge Patients
+
+### 🩺 Doctor & Employee Management
+
+* Employee Registration
+* Department Assignment
+* Employee Transfers
+* Employee Profiles
+
+### 💊 Pharmacy Management
+
+* Pharmaceutical Categories
+* Medicine Inventory
+* Prescriptions
+* Vendor Management
+
+### 🧪 Laboratory Management
+
+* Lab Tests
+* Lab Reports
+* Patient Vitals
+* Equipment Records
+
+### 🏥 Surgery Management
+
+* Surgery Scheduling
+* Surgery Records
+* Surgery Equipment Management
+
+### 💰 Accounting & Payroll
+
+* Payroll Generation
+* Accounts Receivable
+* Accounts Payable
+* Payroll Receipts
+
+### 📦 Inventory & Assets Management
+
+* Asset Tracking
+* Inventory Records
+* Equipment Management
+
+### 📊 Reports
+
+* In-Patient Reports
+* Out-Patient Reports
+* Employee Reports
+* Pharmacy Reports
+* Medical Reports
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-### Dashboard
+## Login Page
 
-<p align="center">
-  <img src="backend/admin/assets/images/screenshots/dashboard.png" width="900">
-</p>
+![Login](backend/admin/assets/images/screenshots/login.png)
 
-### Login Page
+---
 
-<p align="center">
-  <img src="backend/admin/assets/images/screenshots/login.png" width="900">
-</p>
+## Dashboard
 
-### Employee Management
+![Dashboard](backend/admin/assets/images/screenshots/dashboard.png)
 
-<p align="center">
-  <img src="backend/admin/assets/images/screenshots/employee.png" width="900">
-</p>
+---
+
+## Employee Management
+
+![Employee](backend/admin/assets/images/screenshots/employee.png)
+
+---
+
+## Profile Management
+
+![Profile](backend/admin/assets/images/screenshots/profile.png)
+
+---
+
+# 🛠 Technology Stack
+
+| Technology | Description               |
+| ---------- | ------------------------- |
+| PHP        | Backend Development       |
+| MySQL      | Database Management       |
+| Bootstrap  | Frontend Styling          |
+| JavaScript | Client-side Functionality |
+| jQuery     | UI Interactions           |
+| HTML5      | Markup                    |
+| CSS3       | Styling                   |
+
+---
+
+# 🚀 Local Installation
+
+## Requirements
+
+* PHP 7.4+
+* MySQL / MariaDB
+* Apache (XAMPP Recommended)
+
+## Setup
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/caano-geel/Hospital-Management-System.git
+```
+
+### 2. Move Project
+
+Place the project inside:
+
+```text
+C:\xampp\htdocs\
+```
+
+### 3. Create Database
+
+Create a database named:
+
+```text
+hmisphp
+```
+
+### 4. Import Database
+
+Import:
+
+```text
+DATABASE FILE/hmisphp.sql
+```
+
+### 5. Configure Database
+
+Update:
+
+```text
+backend/admin/assets/inc/config.php
+backend/doc/assets/inc/config.php
+```
+
+Example:
+
+```php
+<?php
+$dbuser="root";
+$dbpass="";
+$host="localhost";
+$db="hmisphp";
+$mysqli=new mysqli($host,$dbuser,$dbpass,$db);
+?>
+```
+
+### 6. Run Application
+
+Start Apache and MySQL.
+
+Open:
+
+```text
+http://localhost/Hospital-PHP/
+```
+
+---
+
+# ☁️ Production Deployment
+
+## Hosting Environment
+
+* InfinityFree
+* Apache
+* PHP 8+
+* MySQL
+
+## Steps
+
+1. Upload project files.
+2. Create production database.
+3. Import SQL database.
+4. Update database credentials.
+5. Configure production settings.
+6. Enable HTTPS.
+7. Test all modules.
+
+---
+
+# 📂 Main Modules
+
+* Dashboard
+* Patient Management
+* Employee Management
+* Pharmacy
+* Laboratory
+* Surgery
+* Payroll
+* Accounting
+* Medical Records
+* Inventory Management
+* Vendor Management
+* Reporting System
+
+---
+
+# 👨‍💻 Developer
+
+### Abdullahi Omar Salad
+
+Software Engineer
+
+GitHub:
+https://github.com/caano-geel
+
+Email:
+[abdullahiomarsalad@gmail.com](mailto:abdullahiomarsalad@gmail.com)
+
+Location:
+Nairobi, Kenya
+
+---
+
+# 📜 License
+
+This project is provided for educational, learning, portfolio, and healthcare management purposes.
+
+---
+
+⭐ If you find this project useful, please consider giving it a star on GitHub.
