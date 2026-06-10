@@ -2,7 +2,11 @@
 
 **Database Name: hmisphp**
 
+<<<<<<< HEAD
 **Developed by Abdullahi Omar Salad **
+=======
+**Developed by Martin Mbithi Nzilani**
+>>>>>>> efda95a0db690788d1d31a2fdd0bb737ad9e8ee2
 
 **Recommended PHP Version 5.6, 7.4**
 
