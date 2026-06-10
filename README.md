@@ -1,118 +1,53 @@
-\# 🏥 Hospital Management System (HMS)
+# 🏥 Hospital Management System (HMS)
 
+<p align="center">
+  <img src="backend/admin/assets/images/screenshots/dashboard.png" alt="Hospital Management System Dashboard" width="900">
+</p>
 
+<p align="center">
+  <strong>A PHP & MySQL based Hospital Management System for managing patients, doctors, pharmacy, laboratory, payroll, inventory, and reports.</strong>
+</p>
 
-!\[Dashboard](backend/admin/assets/images/screenshots/dashboard.png)
+<p align="center">
+  <a href="https://hospitalmsys.page.gd/">🌐 Live Demo</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-screenshots">Screenshots</a> •
+  <a href="#-installation">Installation</a>
+</p>
 
+---
 
+## ✨ Features
 
-A comprehensive Hospital Management System built with PHP, MySQL, Bootstrap, JavaScript, and jQuery.
+- 👨‍⚕️ Admin and Doctor Panels
+- 🧑‍🤝‍🧑 Patient Management
+- 👩‍⚕️ Employee Management
+- 💊 Pharmacy Management
+- 🧪 Laboratory Management
+- 📋 Medical Records
+- 🏥 Surgery Records
+- 💰 Payroll Management
+- 📊 Reports and Analytics
+- 📦 Inventory and Assets Management
 
+---
 
+## 📸 Screenshots
 
-\## 🌐 Live Demo
+### Dashboard
 
+<p align="center">
+  <img src="backend/admin/assets/images/screenshots/dashboard.png" width="900">
+</p>
 
+### Login Page
 
-https://hospitalmsys.page.gd/
+<p align="center">
+  <img src="backend/admin/assets/images/screenshots/login.png" width="900">
+</p>
 
+### Employee Management
 
-
-\## ✨ Features
-
-
-
-\- Admin Panel
-
-\- Doctor Panel
-
-\- Patient Management
-
-\- Employee Management
-
-\- Pharmacy Management
-
-\- Laboratory Management
-
-\- Medical Records
-
-\- Surgery Records
-
-\- Payroll Management
-
-\- Accounting
-
-\- Inventory Management
-
-\- Vendor Management
-
-\- Reports
-
-
-
-\## 📸 Screenshots
-
-
-
-\### Login
-
-!\[Login](backend/admin/assets/images/screenshots/login.png)
-
-
-
-\### Dashboard
-
-!\[Dashboard](backend/admin/assets/images/screenshots/dashboard.png)
-
-
-
-\### Employee Management
-
-!\[Employee](backend/admin/assets/images/screenshots/employee.png)
-
-
-
-\### Profile
-
-!\[Profile](backend/admin/assets/images/screenshots/profile.png)
-
-
-
-\### Signout
-
-!\[Signout](backend/admin/assets/images/screenshots/signout.png)
-
-
-
-\## 🛠 Technology Stack
-
-
-
-| Technology | Description |
-
-|---|---|
-
-| PHP | Backend |
-
-| MySQL | Database |
-
-| Bootstrap | UI |
-
-| JavaScript | Frontend |
-
-| jQuery | Interactions |
-
-
-
-\## 🚀 Local Installation
-
-
-
-1\. Copy project to:
-
-
-
-```text
-
-C:\\xampp\\htdocs\\Hospital-PHP
-
+<p align="center">
+  <img src="backend/admin/assets/images/screenshots/employee.png" width="900">
+</p>
